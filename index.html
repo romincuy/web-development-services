@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RomWeb</title>
+    <link rel="stylesheet" href="style.css" />
+    <link id="favicon" rel="shortcut icon" href="Asset/Icons/romin-icon-web.png" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="Asset/Icons/partner.png" alt="" class="logo-img" />
+        <h1 class="logo-title">ROM X</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#jasa">JASA</a></li>
+          <li><a href="mailto:rominmuh230@gmail.com">KONTAK</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">FOLLOW SAYA</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p class="title">Hello, Romin Here!</p>
+        <p class="description">Web Developer</p>
+        <img
+          src="Asset/Foto/59aa7d94-902b-4883-b38f-1ac425ccaf98.jpg"
+          alt=""
+          class="img-foto"
+        />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="tentang">
+        <p class="title">Saya Programmer Fullstack</p>
+        <p class="description">Ngoding Dulu, Jago Belakang</p>
+        <div class="mt-10">
+          <button class="btn-cta" onclick="redirWhatsapp()">
+            Mari Kerja Sama
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" id="jasa">
+          <div class="card-item">
+            <img src="Asset/Icons/24-hours.png" alt="" class="icon" />
+            <p class="card-title">Layanan 24/7</p>
+            <p class="card-description">Melayani sesuai kebutuhan anda</p>
+          </div>
+          <div class="card-item">
+            <img src="Asset/Icons/hot-deal.png" alt="" class="icon" />
+            <p class="card-title">Jasa kami murah</p>
+            <p class="card-description">
+              Jasa kami murah dan kualitas terjamin
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="Asset/Icons/rating.png" alt="" class="icon" />
+            <p class="card-title">Mendapat rating bagus</p>
+            <p class="card-description">Clien sangat puas terhadap pelayanan</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="text-footer">&COPY;Romin Website 2023</p>
+    </footer>
+
+    <script>
+      function redirInstagram() {
+        window.location.href = "https://instagram.com/romynn10";
+      }
+      function redirWhatsapp() {
+        window.location.href = "https://wa.me/6282244623402";
+      }
+    </script>
+  </body>
+</html>
